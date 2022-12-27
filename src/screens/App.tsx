@@ -8,7 +8,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>First</Text>
+      <Text>Setup Wallet</Text>
       <Button title="Create Wallet" onPress={() => {}} />
       <Button title="Import Wallet" onPress={() => {}} />
     </View>
@@ -18,7 +18,8 @@ function HomeScreen() {
 function SettingsScreen() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Settings!</Text>
+      <Text>Connect to dapps via Wagmi</Text>
+      <Button title="Connect dapp" onPress={() => {}} />
     </View>
   );
 }
